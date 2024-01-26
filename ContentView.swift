@@ -20,7 +20,7 @@ struct ContentView: View {
         
         switch inputUnit {
             case "Celsius":
-                return input * 9/5 + 32
+                return input
         case "Fahrenheit":
             return (input - 32) * (5/9)
         case "Kalvin":
